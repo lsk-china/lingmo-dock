@@ -4,27 +4,27 @@
 <context>
     <name>AppItem</name>
     <message>
-        <location filename="../qml/AppItem.qml" line="73"/>
+        <location filename="../qml/AppItem.qml" line="76"/>
         <source>Open</source>
         <translation>Abrir</translation>
     </message>
     <message>
-        <location filename="../qml/AppItem.qml" line="85"/>
+        <location filename="../qml/AppItem.qml" line="88"/>
         <source>Unpin</source>
         <translation>Soltar</translation>
     </message>
     <message>
-        <location filename="../qml/AppItem.qml" line="85"/>
+        <location filename="../qml/AppItem.qml" line="88"/>
         <source>Pin</source>
         <translation>Afixar</translation>
     </message>
     <message>
-        <location filename="../qml/AppItem.qml" line="94"/>
+        <location filename="../qml/AppItem.qml" line="97"/>
         <source>Close window</source>
         <translation>Fechar janela</translation>
     </message>
     <message>
-        <location filename="../qml/AppItem.qml" line="95"/>
+        <location filename="../qml/AppItem.qml" line="98"/>
         <source>Close %1 windows</source>
         <translation>Fechar %1 janelas</translation>
     </message>
@@ -32,7 +32,7 @@
 <context>
     <name>ApplicationModel</name>
     <message>
-        <location filename="../src/applicationmodel.cpp" line="285"/>
+        <location filename="../src/applicationmodel.cpp" line="360"/>
         <source>Launcher</source>
         <translation>Lançador</translation>
     </message>
@@ -40,19 +40,16 @@
 <context>
     <name>main</name>
     <message>
-        <location filename="../qml/main.qml" line="114"/>
         <source>Trash</source>
-        <translation>Lixo</translation>
+        <translation type="vanished">Lixo</translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="124"/>
         <source>Open</source>
-        <translation>Abrir</translation>
+        <translation type="vanished">Abrir</translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="129"/>
         <source>Empty Trash</source>
-        <translation>Esvaziar Lixo</translation>
+        <translation type="vanished">Esvaziar Lixo</translation>
     </message>
 </context>
 </TS>

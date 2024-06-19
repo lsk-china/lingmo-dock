@@ -178,7 +178,8 @@ QRect MainWindow::windowRect() const
                                  : availableGeometry.height() - m_settings->edgeMargins();;
 
     // Add trash item.
-    int appCount = m_appModel->rowCount() + 1;
+    
+    int appCount = m_appModel->rowCount();
     int iconSize = m_settings->iconSize();
     iconSize += iconSize * 0.1;
     int length = appCount * iconSize;

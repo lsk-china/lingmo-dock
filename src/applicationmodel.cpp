@@ -359,7 +359,7 @@ void ApplicationModel::initPinnedApplications()
     item->iconName = "qrc:/images/rocket.svg";
     item->visibleName = tr("Launcher");
     item->fixed = true;
-    m_appItems.append(item);
+    // m_appItems.append(item);
 
     // Pinned Apps
     for (int i = 0; i < groups.size(); ++i) {
@@ -455,6 +455,9 @@ void ApplicationModel::onWindowAdded(quint64 wid)
 
     // Skip...
     if (id == "lingmo-launcher")
+        return;
+
+    if (id == "QDesktopPet_2_cmake")
         return;
 
     QString desktopPath = m_iface->desktopFilePath(wid);

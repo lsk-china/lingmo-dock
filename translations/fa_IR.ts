@@ -4,27 +4,27 @@
 <context>
     <name>AppItem</name>
     <message>
-        <location filename="../qml/AppItem.qml" line="73"/>
+        <location filename="../qml/AppItem.qml" line="76"/>
         <source>Open</source>
         <translation>باز کردن</translation>
     </message>
     <message>
-        <location filename="../qml/AppItem.qml" line="85"/>
+        <location filename="../qml/AppItem.qml" line="88"/>
         <source>Unpin</source>
         <translation>برداشتن سنجاق</translation>
     </message>
     <message>
-        <location filename="../qml/AppItem.qml" line="85"/>
+        <location filename="../qml/AppItem.qml" line="88"/>
         <source>Pin</source>
         <translation>سنجاق کردن</translation>
     </message>
     <message>
-        <location filename="../qml/AppItem.qml" line="94"/>
+        <location filename="../qml/AppItem.qml" line="97"/>
         <source>Close window</source>
         <translation>بستن پنجره</translation>
     </message>
     <message>
-        <location filename="../qml/AppItem.qml" line="95"/>
+        <location filename="../qml/AppItem.qml" line="98"/>
         <source>Close %1 windows</source>
         <translation>بستن %1 پنجره</translation>
     </message>
@@ -32,7 +32,7 @@
 <context>
     <name>ApplicationModel</name>
     <message>
-        <location filename="../src/applicationmodel.cpp" line="285"/>
+        <location filename="../src/applicationmodel.cpp" line="360"/>
         <source>Launcher</source>
         <translation>لانچر</translation>
     </message>
@@ -40,19 +40,16 @@
 <context>
     <name>main</name>
     <message>
-        <location filename="../qml/main.qml" line="114"/>
         <source>Trash</source>
-        <translation>زباله‌دانی</translation>
+        <translation type="vanished">زباله‌دانی</translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="124"/>
         <source>Open</source>
-        <translation>باز کردن</translation>
+        <translation type="vanished">باز کردن</translation>
     </message>
     <message>
-        <location filename="../qml/main.qml" line="129"/>
         <source>Empty Trash</source>
-        <translation>خالی کردن زباله‌دانی</translation>
+        <translation type="vanished">خالی کردن زباله‌دانی</translation>
     </message>
 </context>
 </TS>
