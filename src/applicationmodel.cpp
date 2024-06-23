@@ -188,7 +188,7 @@ void ApplicationModel::raiseWindow(const QString &id)
 
     m_iface->forceActiveWindow(item->wids.at(item->currentActive));
 }
-
+#include <QDebug>
 bool ApplicationModel::openNewInstance(const QString &appId)
 {
     ApplicationItem *item = findItemById(appId);
@@ -200,11 +200,11 @@ bool ApplicationModel::openNewInstance(const QString &appId)
         QStringList args = item->exec.split(" ");
         QString exec = args.first();
         args.removeFirst();
-
+        qDebug() << exec << args;
         if (!args.isEmpty()) {
-            ProcessProvider::startDetached(exec, args);
+            QProcess::startDetached(exec, args);
         } else {
-            ProcessProvider::startDetached(exec);
+            QProcess::startDetached(exec);
         }
     } else {
         ProcessProvider::startDetached(appId);

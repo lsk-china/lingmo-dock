@@ -24,6 +24,7 @@
 #include "applicationitem.h"
 #include "systemappmonitor.h"
 #include "xwindowinterface.h"
+#include <QProcess>
 
 class ApplicationModel : public QAbstractListModel
 {
